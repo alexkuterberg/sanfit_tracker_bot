@@ -1,6 +1,8 @@
 import logging
 import asyncio
-from aiogram import Bot, Dispatcher, types, F
+from aiogram import Bot, Dispatcher, types
+from aiogram.filters import Command, CommandStart, Text
+from aiogram import F
 from aiogram.enums import ParseMode
 
 API_TOKEN = "7342845325:AAGsgT0hM6byu8J_uwbFhdhkakfao5BHiAg"
